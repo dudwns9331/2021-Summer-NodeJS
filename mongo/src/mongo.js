@@ -7,8 +7,7 @@
 
 const { MongoClient } = require('mongodb')
 
-const uri =
-  'mongodb+srv://dbUser:qwqw0305@cluster0.yw0oz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const uri = 'dbUser'
 
 const client = new MongoClient(uri, {
   // @ts-ignore
